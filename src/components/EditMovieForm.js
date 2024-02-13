@@ -1,13 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+// EditMovieForm
+import React, { useState } from 'react';
+// import { useParams, useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
-import axios from 'axios';
+// import axios from 'axios';
 
-const EditMovieForm = (props) => {
-  const navigate = useNavigate();
+const EditMovieForm = () => {
 
-  const { setMovies } = props;
+  // const { setMovies } = props;
   const [movie, setMovie] = useState({
     title: "",
     director: "",

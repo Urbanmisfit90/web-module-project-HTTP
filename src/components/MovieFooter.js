@@ -1,3 +1,4 @@
+// MovieFooter.js
 import React from 'react';
 
 const MovieFooter = (props) => {
@@ -9,3 +10,4 @@ const MovieFooter = (props) => {
 }
 
 export default MovieFooter;
+

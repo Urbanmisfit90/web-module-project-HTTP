@@ -1,3 +1,5 @@
+// DeleteMovieModal.js
+
 import React from 'react';
 
 const DeleteMovieModal = () => {
